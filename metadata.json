@@ -1,0 +1,7 @@
+{
+  "name": "Sevgi Dent Diş Polikliniği",
+  "description": "Professional dental clinic website with single-page design and robust admin panel for managing services, doctors, and news.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
