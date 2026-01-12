@@ -1,24 +1,28 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Node
+node_modules/
 
-node_modules
-dist
-dist-ssr
-*.local
+# Env
+.env
+.env.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Local database
+database.sqlite
+*.sqlite
+*.db
+
+# Local uploads
+uploads/
+
+# Build outputs
+dist/
+build/
+
+# OS junk
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Local scripts / notes
+*.bat
+*.cmd
+*.ps1
+*.txt
